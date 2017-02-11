@@ -1,0 +1,180 @@
+body {
+  padding: 2%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ECF2F3;
+  color: #65717A;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.name-bar {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.name-bar > h2 {
+  margin-top: 10px;
+}
+
+.contact-list {
+  margin-top: 20px;
+}
+.contact-list > li {
+  list-style: none;
+}
+
+.contact-list > li > i {
+  margin-right: 8px;
+}
+
+
+.personal-summary, .tech-skill, 
+.recent-projects, .experience,
+.education, .referee {
+  margin-top: 45px;
+}
+
+.personal-summary h2, .tech-skill h2, 
+.recent-projects h2, .experience h2, 
+.education h2, .referee h2 {
+  border-bottom: 2px solid black;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+  color: #1185B8
+}
+
+.personal-summary p {
+  text-align: justify;
+}
+
+
+.skill-icons {
+  font-size: 65px;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-left: 15px;
+  margin-right: 0;
+  border-top: 2px solid black;
+}
+
+
+.tech-skill li {
+  list-style: none;
+  font-size: 15px;
+}
+
+.skill-list > h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.skill-list ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.tech-skill {
+  padding-top: 0;
+}
+
+.other-skills {
+  margin-left: -15px;
+}
+
+.other-skills h3 {
+  text-align: left;
+  font-weight: bold;
+  color: #E08F90;
+}
+
+.other-skills ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.other-skills li {
+  font-size: 17px;
+}
+
+
+
+
+.project h4 {
+  font-weight: bold;
+  color: #E08F90;
+}
+
+.project span {
+  color: #65717A;
+}
+
+.project p {
+  text-align: justify;
+}
+
+.project-second-column {
+  margin-top: 30px;
+}
+
+.project-role {
+  font-size: 14px;
+}
+
+.experience-company {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.experience-company-logo {
+  width: 70px;
+  height: 55px;
+  margin-right: 30px;
+}
+
+.responsibilities h3 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.resp-block {
+  padding: 14px;
+}
+
+.resp-block :first-child {
+  text-align: center;
+}
+
+.responsibilities p {
+  text-align: justify;
+}
+
+
+.education-logos {
+  margin-top: 50px;
+}
+
+.education-content {
+  font-size: 20px;
+  font-weight: bold
+}
+
+
+.logo-wrapper img {
+  width: 130px;
+  height: 130px;
+}
+
+.referee-content h3 {
+  margin-top: 0;
+}
+
+.referee-content i {
+  margin-right: 6px;
+}
